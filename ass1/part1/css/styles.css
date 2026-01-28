@@ -1,0 +1,15 @@
+<!--Style classes that do not specify what type of
+tag before the period can be used by any tag
+-->
+<style type=“text/css”>
+<!--
+.emphasize {color: red; }
+-->
+</style>
+<body>
+<h1 class=“emphasize”>Page Message</h1>
+<!--.emphasize is the name of the class
+-->
+<p>Welcome to your <span class=“emphasize”>new
+home</span></p>
+</body>
