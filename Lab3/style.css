@@ -8,9 +8,24 @@ body {
   width: 500px;
   background-color: #efefef;
   margin: 0 auto;
-  ul {
+}
+
+h1{
+  color: darkslategray;
+  border-bottom: 10px dotted purple;
+  font-size: 1.5rem;
+}
+
+h2{
+  font-style:italic;
+  font-size: 1.5rem;
+}
+
+ul {
   background-color: white;
   border: 5px solid purple;
   padding: 30px;
+  border-radius: 20px;
 }
-}
+
+
