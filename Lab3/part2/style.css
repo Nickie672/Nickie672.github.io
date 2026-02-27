@@ -1,0 +1,75 @@
+ /*
+	Name:Nickie Palmer
+	File: index.html
+	Date: February 27, 2026
+	Challenge: St Huxley's Community College
+	*/
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Georgia", serif;
+  line-height: 1.6;
+  margin: 0 auto;
+  padding: 0 20px;
+  min-width: 980px;
+  max-width: 1400px;
+}
+/* Headings */
+h1 { 
+    font-size: 2.5rem; 
+    text-align: center; 
+}
+
+h2 { 
+    font-size: 1.8rem; 
+    margin-bottom: 0; 
+}
+
+/* Paragraphs */
+
+main {
+  display: grid;
+  grid-template-columns: 5fr 2fr 2fr;
+  gap: 40px;
+  padding: 20px 0;
+}
+
+section h2 + p {
+  text-indent: 2rem;
+}
+a {
+  color: #cb660e;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #c41818;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #4e0758;
+}
+
+/* Remove default focus outline */
+a:focus {
+  outline: none;
+}
+/* header and footer */
+
+header {
+  border-bottom: 5px solid #cb660e;
+}
+
+footer {
+  border-top: 5px solid #cb660e;
+}
+
+footer p {
+  text-align: center;
+}
+/* Link Styling */
