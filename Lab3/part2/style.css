@@ -41,10 +41,7 @@ h2 {
     font-size: 1.8rem; 
     margin-bottom: 0;
     margin-top: 1.2rem;
-
 }
-
-/* Paragraphs */
 
 main {
   display: grid;
@@ -53,12 +50,20 @@ main {
   padding: 20px 0;
 }
 
+/* Paragraphs */
+
+p {
+  margin: 0 0 1rem 0;
+}
+
 section h2 + p {
   text-indent: 2rem;
 }
 
+/* Link Styling */
+
 a {
-  color: #4e0758;
+  color: #ad1212;
   text-decoration: underline;
 }
 
@@ -81,13 +86,13 @@ ul {
   list-style-type: circle;
 }
 a:visited {
-  color: #c41818;
+  color: #ad1212;
 }
 
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #4e0758;
+  color: #ad1212;
 }
 
 /* Remove default focus outline */
@@ -101,7 +106,7 @@ a:focus {
 a[href^="http"]::after {
   content: "";
   display: inline-block;
-  width: 12px;
+  width: 8px;
   height: 12px;
   margin-left: 5px;
   background-image: url("external-link-52.png");
@@ -109,14 +114,46 @@ a[href^="http"]::after {
   background-repeat: no-repeat;
 }
 
+/* Navigation Styling */
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin-bottom: 10px;
+}
+
+nav a {
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  background-color: white;
+  border: 1px solid black;
+  color:  #ad1212;
+  text-decoration: none;
+  font-family: "Georgia", serif;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.08rem;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: #ad1212;
+  color: white;
+}
+
 /* header and footer */
 
 header {
-  border-bottom: 5px solid #cb660e;
+  border-bottom: 5px solid  #ad1212;
 }
 
 footer {
-  border-top: 5px solid #cb660e;
+  border-top: 5px solid  #ad1212;
 }
 
 footer p {
